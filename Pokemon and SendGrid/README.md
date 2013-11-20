@@ -2,7 +2,7 @@
 
 Who didn't play a Pokemon game when they were young? I know I did. Blue, Yellow, Silver and Gold. The good old days. Recently I've seen a lot of hype around the new games X and Y. It is for this reason that I decided to build my [SendGrid](http://sendgrid.com) API demo around it.
 
-The dynamic is pretty simple. For every email the audience sends to the application, a little mail will fly towards the Pokemon performing damage to it. At some point the Pokemon faints and I will have a winner to give some special swag out. The life points can be easily adjusted depending on the size of the audience. 
+The dynamic is simple. For every email the audience sends to the application, a little mail will fly towards the Pokemon performing damage to it. At some point the Pokemon faints and I will have a winner to give some special swag out. The life points can be easily adjusted depending on the size of the audience. 
 
 ![image](https://raw.github.com/elbuo8/blogs/master/Pokemon%20and%20SendGrid/demo.gif)
 
