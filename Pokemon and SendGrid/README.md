@@ -10,4 +10,4 @@ Also, for every email the application receives, it replies to the sender with th
 
 With this simple demo I cover both the [Inbound Parse Webhook](http://sendgrid.com/docs/API_Reference/Webhooks/parse.html) and [Outbound Mail API](http://sendgrid.com/docs/API_Reference/Web_API/mail.html) which are dead easy to use with all of the [wrappers we have](https://github.com/sendgrid/).
 
-Now, on with the simple technical details. I built this using HTML5 canvas which I wanted to try out for the longest time. It runs on top of node.js. Canvas is pretty powerful and simple to get started on. I will write a blog post dedicated to HTML5 canvas once I clean up my demo's code.
+Now, on with the simple technical details. I built this using HTML5 canvas which I wanted to try out for the longest time. It runs on top of node.js. Canvas is pretty powerful and simple to get started on. I will write a blog post dedicated to HTML5 canvas once I clean up my [demo's code](https://github.com/elbuo8/sgdemo-pokemon).
