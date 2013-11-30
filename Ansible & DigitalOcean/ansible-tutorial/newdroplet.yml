@@ -1,0 +1,13 @@
+---
+- hosts: localhost
+  tasks:
+  - name: Create new DO Droplet
+    digital_ocean: >
+      state=present
+      command=droplet
+      name=ansible-tutorial
+      size_id=66
+      region_id=1
+      image_id=562354
+      ssh_key_ids=53618
+
