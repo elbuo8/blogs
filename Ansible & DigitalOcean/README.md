@@ -1,6 +1,6 @@
 # Getting Started on Ansible and Digital Ocean 
 
-For some reason I've recently been attracted to [DevOps](http://en.wikipedia.org/wiki/DevOps). I've done some work on [Puppet](http://puppetlabs.com/) and others, but I have found that I'm more productive (and enjoy) working with [Ansible](http://www.ansibleworks.com) (thanks to [@scottmote](https://twitter.com/scottmotte) for introducing it to me). With this blog-series I hope to get you up and running in Ansible by deploying and provisioning a [Digital Ocean](https://www.digitalocean.com/?refcode=4a034bcac721
+For some reason I've recently been attracted to [DevOps](http://en.wikipedia.org/wiki/DevOps). I've done some work on [Puppet](http://puppetlabs.com/) and others, but I have found that I'm more productive (and enjoy) working with [Ansible](http://www.ansibleworks.com) (thanks to [@scottmotte](https://twitter.com/scottmotte) for introducing it to me). With this blog-series I hope to get you up and running in Ansible by deploying and provisioning a [Digital Ocean](https://www.digitalocean.com/?refcode=4a034bcac721
 ) Droplet and deploying a [Go](http://golang.org) app.
 
 First I would like to provide you with a simple gist of what Ansible and Digital Ocean are. Ansible is a easy-to-use tool that can execute pre-defined actions on servers such as installing dependencies, watching for changes, deploying applications or even deploying other servers. Digital Ocean is a cloud hosting provider that is super simple and cheap. 
