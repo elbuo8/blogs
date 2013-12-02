@@ -35,6 +35,7 @@ You will be adding your [DO credentials](https://www.digitalocean.com/community/
 	curl https://raw.github.com/ansible/ansible/devel/plugins/inventory/digital_ocean.py > dohosts
 	chmod +x dohosts
 	
+[Source for the curl script.](https://raw.github.com/ansible/ansible/devel/plugins/inventory/digital_ocean.py)
 
 ### Creating a Droplet
 
@@ -48,6 +49,8 @@ In order to create a Droplet, you need to fetch some things from the [DO API](ht
 Since this might be a little of a hassle I wrote a script that will provide you with all the needed information.
 
 	curl https://gist.github.com/elbuo8/7714478/raw/b047721b49f39967a47368cc905007b56e4631f7/doapi.sh | sh
+
+[Source for the curl script.](https://gist.github.com/elbuo8/7714478/raw/b047721b49f39967a47368cc905007b56e4631f7/doapi.sh)
 	
 The **localhosts** file is one of your inventories. You can have multiple inventories. Your other inventory is a [dynamic inventory](http://www.ansibleworks.com/docs/intro_dynamic_inventory.html) which populates with your DO Droplets. Ansible runs its [Playbooks](http://www.ansibleworks.com/docs/playbooks.html) (pre-defined commands) over the servers which pattern is matched in the inventories.
 
