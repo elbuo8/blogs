@@ -33,6 +33,7 @@ You will be adding your [DO credentials](https://www.digitalocean.com/community/
 	sudo pip install dopy 
 	echo "[localhost]\nlocalhost" > localhosts
 	curl https://raw.github.com/ansible/ansible/devel/plugins/inventory/digital_ocean.py > dohosts
+	chmod +x dohosts
 	
 
 ### Creating a Droplet
