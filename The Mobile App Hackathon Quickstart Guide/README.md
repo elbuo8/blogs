@@ -34,7 +34,6 @@ to either set up a reverse proxy to that folder or use Python's SimpleHTTPServer
 ```bash
 $ alias serve='python -m SimpleHTTPServer 3000'
 ```
-
 Then just visit the address and voilà. Same application, running on your browser.
 
 ## Angular Basics
@@ -77,9 +76,10 @@ Breaking it down, this Service is called Playlist. Using Angular's DI we importe
 
 At this point you should have at least the following files:
 
-//gist of index.html
-//gist of app.js
+https://gist.github.com/elbuo8/8514000
 
 In the next part of this blog, we will build a music player that pulls songs from [Hype Machine's Popular Playlist](http://hypem.com/popular) for Android and iOS. The end result will hopefully look like this:
 
-![hypem](/player)
+![image](https://raw.github.com/elbuo8/blogs/master/The%20Mobile%20App%20Hackathon%20Quickstart%20Guide/player.png)
+
+Also, quick shoutout for [Cesar Andreu](https://twitter.com/CesarAndreu) for being so awesome and helping me out with this first part!
