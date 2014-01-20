@@ -27,7 +27,7 @@ Without further adieu:
 * Pop-up Banner
 * Resume Book
 
-## None API Company
+## Non-API Company
 
 ### Level 1
 * Logo on Website
@@ -36,21 +36,21 @@ Without further adieu:
 * Resume Book
 * Recruiters On-Site
 * Can give prize
-* Workshop(15-30 mins)
+* Workshop (15-30 mins)
 
 ### Level 2
 * Level 1
 * Booth
 * Pre-Access to Resumes/GitHub/LinkedIn
 * Interview Rooms
-* Infosession(30 mins maximum)
+* Infosession (30 mins maximum)
 
 ### Plug-ins
 * Co-Sponsor
 * Keynotes
 * Pre/Post Company Event
 
-*Keep in mind, a workshop != infosession. In a workshop, it is expected that a topic should teached. Versus an infosession were the company will try to promote itself as much as possible.*
+*Keep in mind, a workshop != infosession. In a workshop, it is expected that a topic should be taught. In an infosession were the company will try to promote itself as much as possible.*
 
 ## Plug-in System
 The plug-in system will basically provide à la carte offerings. Of course, each plug-in will have an additional cost. That is where bundles/deals can be made that will benefit both sides.
