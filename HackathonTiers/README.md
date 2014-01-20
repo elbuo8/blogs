@@ -36,14 +36,14 @@ Without further adieu:
 * Resume Book
 * Recruiters On-Site
 * Can give prize
-* Workshop(15-30 mins)
+* Workshop (15-30 mins)
 
 ### Level 2
 * Level 1
 * Booth
 * Pre-Access to Resumes/GitHub/LinkedIn
 * Interview Rooms
-* Infosession(30 mins maximum)
+* Infosession (30 mins maximum)
 
 ### Plug-ins
 * Co-Sponsor
