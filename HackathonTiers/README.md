@@ -55,4 +55,7 @@ Without further adieu:
 ## Plug-in System
 The plug-in system will basically provide à la carte offerings. Of course, each plug-in will have an additional cost. That is where bundles/deals can be made that will benefit both sides.
 
+## Example
+HackPR is aiming for 300 attendees. 24 hours, food, transportation and prizes. My suggestion was, set the API Tier for $250. Make the Plug-ins vary between $75-150 each. Meanwhile, the Non-API Tier Level 1 would start at $500 and Level 2 would be $1000. The Plug-in in this scenario could range from $200-500 on the example above. This is obviously a specific scenario, but hopefully it will give you a sense on how to set your pricing.
+
 If you have any thoughts, concerns or suggestions, feel free to reach out! Either [@elbuo8](https://twitter.com/elbuo8) or at [yamil@sendgrid.com](mailto:yamil@sendgrid.com?Subject=Sponsorhips)
