@@ -9,7 +9,7 @@ We need a header and a placeholder for the content. A template if you will. Usin
 
 [gist]
 
-Notice that we include **ng-view**. This is were we will render the actual content. Hence, it works like a placeholder.
+Notice that we include **ng-view**. This is where we will render the actual content. Hence, it works like a placeholder.
 
 For the actual content, lets use an [Angular Template](http://docs.angularjs.org/guide/templates). Markup is pretty simple. 
 
