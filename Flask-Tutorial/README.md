@@ -121,5 +121,8 @@ Parse API](http://sendgrid.com/docs/API_Reference/Webhooks/parse.html).
 So go ahead and send yourself an email and the subject will be added to
 your twitter!
 
+For the full source code, refer
+to my [GitHub](https://github.com/elbuo8/flask-tutorial).
+
 If you want me to drop by and give this workshop for your peeps, I'd
 be more than glad to do so! Send me a tweet [@elbuo8](https://twitter.com/elbuo8) and we can sort it out :)
