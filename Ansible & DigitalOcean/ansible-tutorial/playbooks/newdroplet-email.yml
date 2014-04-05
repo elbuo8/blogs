@@ -1,0 +1,21 @@
+---
+- hosts: localhost
+  tasks:
+  - name: Create new DO Droplet
+    digital_ocean: >
+      state=present
+      command=droplet
+      name=ansible-tutorial
+      size_id=66
+      region_id=1
+      image_id=562354
+      ssh_key_ids=53618
+
+  - name: Awknowledge creation
+    local_action: mail
+      host='smtp.sendgrid.net'
+      port=587
+      subject='Instance Created'
+      body={{ ansible_hostname }} + ' has been created'
+      to='yamil@sendgrid.com'
+      
