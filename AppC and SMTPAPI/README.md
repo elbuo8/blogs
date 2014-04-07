@@ -2,10 +2,10 @@
 
 Did you know you can build native app using web technologies?
 [Titanium Appcelerator](http://www.appcelerator.com/titanium/)
-does exactly that. And its super straight forward to get up
-and running.
+does exactly that. And its [super easy](http://docs.appcelerator.com/titanium/latest/#!/guide/Quick_Start)
+to get up and running.
 
-Recently, I found myself creating a library that would make it
+Recently, I found myself developing a library that would make it
 super easy for Titanium developers to send email using none other
 than our favorite SMTP provider, SendGrid!
 
@@ -55,8 +55,7 @@ var email = sendgrid.Email({
 
 email.addFilter('template', 'enable', 1);
 email.addFilter('template', 'text/html',
-'<html><head></head><body bgcolor=\'blue\'><div style=\'width:200px\'
-bgcolor=\'#FFF\'><% body %></div></body></html>');
+'<html><body>General template stuff.<% body %></body></html>');
 sendgrid.send(email, function (e) {
     if (e) {
       console.log('Oups :( : ' + e);
@@ -64,7 +63,7 @@ sendgrid.send(email, function (e) {
 });
 ```
 
-Simple enough ah? Just got got yourself a simple template.
+Simple enough ah? Just got yourself a simple template.
 
 If you have any questions or concerns, feel free to reach out to me at [@elbuo8](https://twitter.com/elbuo8).
 
