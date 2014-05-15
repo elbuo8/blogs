@@ -12,9 +12,9 @@ ContriBot makes it super easy to do my job. At SendGrid we receive pull requests
 
 ![Evidence](http://i.imgur.com/J0wUewg.jpg)
 
-Developers highly appreciate it when you go the extra mile to reward them :)
+Developers highly appreciate it when you go the extra mile to reward them.
 
-ContriBot was originally written in Nodejs in a not so sober state of mind... Now its written in Go. There is a simple plug-in system that anyone can contribute to. Currently there is support for Basecamp, Email and HipChat. But the possibilities are unlimited :)
+ContriBot was originally written in Nodejs in a not so sober state of mind... Now its written in Go. There is a simple plug-in system that anyone can contribute to. Currently there is support for Basecamp, Email and HipChat. But the possibilities are unlimited.
 
 If you run open source projects, you can use ContriBot too! Join me in making developers life more easy :)
 
