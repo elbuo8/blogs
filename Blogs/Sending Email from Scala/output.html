@@ -11,42 +11,23 @@ Lets learn a bit of the difference in syntaxes when coming from Java and using t
 
 Importing the library in Java is as simple as:
 
-```java
-import com.sendgrid.*;
-```
-
+[gist id="f86dc62d2f92d96774f4" file="0.java"]
 Its Scala counter part is:
 
-```scala
-import com.sendgrid._;
-```
-
+[gist id="f86dc62d2f92d96774f4" file="scala"]
 Basically *_* implies wildcard, while in Java its _*_. Also, in Scala, there is no need for semicolons. They are completely optional.
 
 Instantiating SendGrid's objects is quite similar. The one thing that changes is the fact that Scala has *Type inference* and there is no need to specify the type of the object.
 
-```java
-SendGrid sg = new SendGrid("api_user", "api_key");
-SendGrid.Email mail = new SendGrid.Email();
-```
-
+[gist id="f86dc62d2f92d96774f4" file="java"]
 VS
 
-```scala
-var sg = new SendGrid("api_user", "api_key");
-var mail = new SendGrid.Email();
-```
-
+[gist id="f86dc62d2f92d96774f4" file="scala"]
 The rest is the same. If you want a **Inmutable** object, instantiate it using the keyword *val*.
 
 Another cool thing about Scala is that you can invoke methods using space instead of the usual **dot notation**. For example:
 
-```scala
-sg.send(mail)
-// =
-sg send(mail)
-```
-
+[gist id="f86dc62d2f92d96774f4" file="scala"]
 They are completely equal.
 
 This is definately not a comprehensive beginner guide. But I would be super stoked to find out that
