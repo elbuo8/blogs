@@ -17,7 +17,7 @@ Done!
 ### Usage:
 
 * -f="original.md"         // REQUIRED
-* -o="output.html"         // Output filename. If not provided, STDOUT will be used
+* -o="output.html"         // Output filename.
 * -p=false                 // Determine if the Gist will be Public or Private, Private by Default
 * -n="Name of the Gist"    // Name of the GistFile generated
 * -d="Description of Gist" // Simple Description

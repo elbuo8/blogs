@@ -1,0 +1,31 @@
+<h1>Gist me, please?</h1>
+
+<p>Do you find yourself writing technical blog posts in Markdown and exporting them to HTML? Do you end up writing <a href="https://help.github.com/articles/github-flavored-markdown">GitHub Flavored Markdown</a> and then exporting to <code> blocks or something similar? I know I used to do that quite often. Thats the reason I created <a href="https://github.com/elbuo8/propagandist">Propagandist</a>.</p>
+
+<p>Propagandist is a simple tool which will parse out your Markdown and convert it into HTML. But the cool part is that every Code Snippet that it finds gets replaced with a Gist for it. This produces a central Gist with all the snippets which users can jump into. Propagandist is built on top <a href="https://github.com/elbuo8/gost">Gost</a> which is a simple wrapper for the <a href="https://developer.github.com/v3/gists/">GitHub Gist API</a>. They were both written in Golang on one of my train rides (I feel very productive in planes and train rides for some reason).</p>
+
+<p>Here is a simple guide on how to get up and running with Propagandist.</p>
+
+<h3>Installation:</h3>
+
+<p>[gist id=61ad9518c7d0e18f509c file=0.bash]
+Done!</p>
+
+<h3>Usage:</h3>
+
+<ul>
+<li>-f=&quot;original.md&quot;         // REQUIRED</li>
+<li>-o=&quot;output.html&quot;         // Output filename.</li>
+<li>-p=false                 // Determine if the Gist will be Public or Private, Private by Default</li>
+<li>-n=&quot;Name of the Gist&quot;    // Name of the GistFile generated</li>
+<li>-d=&quot;Description of Gist&quot; // Simple Description</li>
+</ul>
+
+<p>For example:</p>
+
+<p>[gist id=61ad9518c7d0e18f509c file=1.bash]
+And that will provide me with a ready to go WordPress markup. We use <a href="http://wordpress.org/plugins/embed-github-gist/">Embed GitHub Gist</a> here at SendGrid therefore Propagandist uses that format for the Gists. But it can be easily modified to work with different styles.</p>
+
+<p>If you think this is a cool project and want more features added to it, you know where to find me! It was originally developed to make blogging easier for me. If it can help anyone out there, I'd be super happy :)</p>
+
+<p>Disclaimer: This post was generated using Propagandist! (Inception ah)</p>
